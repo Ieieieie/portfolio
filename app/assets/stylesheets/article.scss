@@ -1,0 +1,140 @@
+// Place all the styles related to the article controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.header-image{
+width: 100%;
+object-fit: cover;
+height: 300px;
+}
+
+.language-image{
+    text-align: center;
+}
+.language-logo{
+    width: 55%;
+    
+}
+.navbar{
+    z-index: 100;
+}
+.navbar-default{
+    margin: 0;
+    background: none;
+    border: none;
+}
+.navbar-header a{
+    color: white;
+    font-size: 30px;
+    margin-top: 14px;
+}
+
+.relative{
+    position: relative;
+    
+}
+.absolute{
+    position: absolute;
+    top:0;
+}
+.header-image{
+    z-index: 1;
+    height:300px;
+}
+.heading{
+    margin-bottom: 80px;
+    font-size: 55px;
+    font-weight: bold;
+}
+.language-section{
+    margin-bottom: 110px;
+}
+.language.container{
+    height: 250px;
+    background: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-image{
+    
+    
+    p{
+        font-size: 33px;
+        color: #544949;
+    }
+
+}
+.products-section{
+    margin-top:30px;
+    margin-bottom: 90px;
+    background: #cfcfcf82;
+    padding-bottom: 100px;
+    padding-top: 18px;
+}
+.products{
+    flex-wrap: wrap;
+    display: flex;
+    width:100%;
+}
+.products-details{
+    width: 45%;
+    display:flex;
+    margin: 20px auto;
+    background-color: white;
+    padding:15px;
+    .row{
+        width: 65%;
+        z-index: 1;
+        margin-left: 15px;
+    }
+}
+.product-image-container{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    img{
+        width:100%;
+        z-index: 100;
+    }
+}
+.jump-logo{
+    display: flex;
+    float:right;
+    img{
+        width:30px;
+    }
+}
+.product-title{
+    font-weight: bold;
+}
+.far{
+    font-size: 125px;
+}
+.profile-section{
+    margin-bottom: 90px;
+}
+.contact-section{
+    background: #cfcfcf82;
+}
+.contact-logo-image{
+    width:40px;
+}
+.contact-carreer{
+    text-align: center;
+}
+.heading-contact{
+    margin: 36px 0;
+    font-size: 55px;
+    font-weight: bold;
+}
+.footer{
+    background: black;
+    color: white;
+}
+.image_switch:hover{
+    transform: scale(1.2);
+  transition-duration: 0.5s;
+
+}

@@ -1,0 +1,230 @@
+<section class="language-section" id="languages">
+    <h1 class="heading text-center">Languages</h1>
+    <div class="container">
+        <div class="row">
+            <div class="language-image col-md-2">
+                <%= image_tag 'java.png', class: 'language-logo' %>
+                <p>java</p>
+            </div>
+            <div class="language-image col-md-2">
+                <%= image_tag 'ruby.png', class: 'language-logo' %>
+                <p>ruby</p>
+            </div>
+            <div class="language-image col-md-2">
+                <%= image_tag 'javascript.png', class: 'language-logo' %>
+                <p>javascript</p>
+            </div>
+            <div class="language-image col-md-2">
+                <%= image_tag 'html.png', class: 'language-logo' %>
+                <p>html</p>
+            </div>
+            <div class="language-image col-md-2">
+                <%= image_tag 'css.png', class: 'language-logo' %>
+                <p>css</p>
+            </div>
+            <div class="language-image col-md-2">
+                <%= image_tag 'rails.png', class: 'language-logo' %>
+                <p>rails</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="products-section" id="products">
+    <h1 class="heading text-center">Products</h1>
+    <div class="container">
+        <div class="products">
+            <div class="products-details">
+                <div class="product-image-container">
+                    <%= image_tag 'logo.png', class: 'product-image' %>
+                </div>
+                <div class="career row">
+                    <table class="table">
+                    <thead>
+                        <tr>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"></th>
+                            <td class="product-title">実家の会社の営業マンの日報表をwebアプリ化した</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td>実家の会社では紙ベースでやりとりを行っており、色々と不便なのでその中のひとつの日報表をwebアプリ化しました。</td>
+                             
+                    </tbody>
+                    </table>
+                    <div class="jump-logo">
+                        <%= link_to image_tag("qiita_logo.png", class:"image_switch"), "https://qiita.com/Ieieieie/items/4194f203c0351d910817" %>
+                        &nbsp;
+                        &nbsp;
+                    <%= link_to image_tag("github_logo.png", class:"image_switch"), "https://github.com/Ieieieie/SalesTaskAdministration" %>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="products-details">
+                <div class="product-image-container">
+                    <%= image_tag 'chat.png', class: 'product-image' %>
+                </div>
+                <div class="career row">
+                    <table class="table">
+                    <thead>
+                        <tr>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"></th>
+                            <td class="product-title">動的webプロジェクトで作ったチャットwebアプリ</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td>webアプリの練習として作成しました。<br>ログイン機能や画像投稿機能など、データベースとのやりとりに関する知識が身につきました。</td>
+                    </tbody>
+                    </table>
+                    <div class="jump-logo">
+                        <%= link_to image_tag("qiita_logo.png", class:"image_switch"), "https://qiita.com/Ieieieie/items/6c9721fc53cac418864b" %>
+                        &nbsp;
+                        &nbsp;
+                    <%= link_to image_tag("github_logo.png", class:"image_switch"), "https://github.com/Ieieieie/ChatRoom" %>
+                    </div>
+                </div>
+            </div>
+            <div class="products-details">
+                <div class="product-image-container">
+                    <%= image_tag 'youtube_social_squircle_red.png', class: 'product-image' %>
+                </div>
+                <div class="career row">
+                    <table class="table">
+                    <thead>
+                        <tr>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"></th>
+                            <td class="product-title">youtube data APIを使った条件指定の動画検索プログラム</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td>youtube data APIを使って、特定の検索キーワードを指定して新しい順に動画の検索を行い、
+                            再生数/登録者数=80[%]の動画のみを抽出し、スプレッドシートに出力します。</td>
+                    </tbody>
+                    </table>
+                    <div class="jump-logo">
+                        <%= link_to image_tag("qiita_logo.png", class:"image_switch"), "https://qiita.com/Ieieieie/items/b126aa9454d008f13f4b" %>
+                        &nbsp;
+                        &nbsp;
+                    <%= link_to image_tag("github_logo.png", class:"image_switch"), "https://github.com/Ieieieie/youtubeSearch" %>
+                    </div>
+                </div>
+            </div>
+            <div class="products-details">
+                <div class="product-image-container">
+                    <%= image_tag 'sample.png', class: 'product-image' %>
+                </div>
+                <div class="career row">
+                    <table class="table">
+                    <thead>
+                        <tr>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"></th>
+                            <td class="product-title">Messaging APIを使った勤怠管理bot</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td>LINEを使って出勤時間・退勤時間を登録・管理できるbot。<br>その日の記録した時間のみ修正可能。<br>また、記録の参照はその日、今月、先月から選ぶことができます。</td>
+                    </tbody>
+                    </table>
+                    <div class="jump-logo">
+                        <%= link_to image_tag("qiita_logo.png", class:"image_switch"), "https://qiita.com/Ieieieie/items/7bdbff4e370d62b727c5" %>
+                        &nbsp;
+                        &nbsp;
+                    <%= link_to image_tag("github_logo.png", class:"image_switch"), "https://github.com/Ieieieie/attendance_bot" %>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section class="profile-section" id="profile">
+        <h1 class="heading text-center">Profile</h1>
+        <div class="container clear">
+            <div class="career row">
+                <table class="table table-hover">
+                <thead>
+                    <tr>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">名前</th>
+                        <td>イエズミ　ケンジ</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">年齢</th>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">経歴</th>
+                        <td>2018年11月 独学でプログラミングを始める</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>2019年夏 oracle java silver,bronzeを取得</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>2020年3月 芝浦工業大学　卒業</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>2020年4月 芝浦工業大学大学院入学</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>現在、エンジニアを目指し奮闘中</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+<section class="contact-section" id="contact">
+    <div class="container contact">
+        
+     <div class="container clear">
+            <div class="career row" style="text-align:center; width: 26%; text-align: center; font-size: 20px; margin: 0 auto;">
+                <h1 class="heading-contact text-center">Contact</h1>
+                <i class="far fa-envelope fa-7x"></i>
+                <table class="table">
+                <tbody>
+                    <tr>
+                        <td>連絡先：habitant.k@gmail.com</td>
+                    </tr>
+                     <tr>
+                        <td>
+                            <%= link_to image_tag("qiita_logo.png", class:"image_switch contact-logo-image"), "https://qiita.com/Ieieieie" %>
+                            &nbsp;
+                            &nbsp;
+                            <%= link_to image_tag("github_logo.png", class:"image_switch contact-logo-image"), "https://github.com/Ieieieie" %>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</section>
+<footer class="footer">    
+    <div class="container text-center">
+        <p class="copyrights">@ 2020- all rights reserved</p>
+    </div>
+</footer>
